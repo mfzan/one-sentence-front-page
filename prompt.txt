@@ -1,0 +1,21 @@
+Write one original front-page headline, at most 200 characters, that sums up
+today's world news (Tuesday 24 November 2026), for the make.fun bounty
+"u-brisk-kestrel-93-one-sentence-one-front-page-0db596eb".
+
+First search the web for the biggest world news of 24 November 2026 and pick
+the single most front-page-worthy story with a concrete number and place —
+do not guess the news.
+
+The headline must follow the shape the AI judge rewards most: read as a real
+one-sentence front-page headline (not a slogan, question or caption), name
+the specific event, place or number at the centre of the day, carry enough
+detail to stand alone, and land with punch — a strong active verb, plain
+words, no hedging or cliche. Pack in the density the news front-page winners
+show (named event + named place + concrete numbers), compressed into one
+clean sentence. The single twist: do not just report that COP31 collapsed —
+name the irony that killed it, a climate deal that never once mentioned
+fossil fuels.
+
+Ship it as a small deterministic Node 22 program (main.ts, standard library
+only) that writes the headline to /output/entry.txt: 1–200 characters, no
+network, the same bytes on every run, output file mode 0644.
